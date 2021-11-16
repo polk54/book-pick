@@ -1,0 +1,134 @@
+
+
+html, body{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding: 10px 50px 40px 50px;
+}
+
+h1{
+  font-size: 45px;
+  line-height: 60px;
+}
+
+#bar{
+  width: 800px;
+  height: 5px;
+  display: inline-block;
+  margin: 30px 20px 10px 0px;
+  background: #3b82f5;
+}
+
+#intro{
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 20px 0px 0px 0px
+}
+
+#outro{
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 40px;
+}
+
+p{
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+#bookDisplay{
+  display: inline-block;
+  width: 600px;
+  font-size: 16px;
+  text-align: center;
+}
+
+img{
+  height: 400px;
+  padding-bottom: 10px;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 20px;
+  background: #3b82f5;
+  padding: 5px 20px 5px 20px;
+  margin: 30px 0px 0px 0px;;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #0061ff;
+  text-decoration: none;
+}
+
+button:focus {
+  outline:0;
+}
+
+#tweet{
+  padding: 40px 50px 20px 0px;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: #3b82f5;
+}
+
+/* selected link */
+a:active {
+    color: #3b82f5;
+}
+
+@media only screen and (max-width: 600px) {
+  #bar{
+    display: inline-block;
+    width: 250px;
+    height: 2px;
+    align-self: center;
+  }
+  body{
+    padding: 10px 10px 10px 10px;
+  }
+  #bookDisplay{
+    display: inline-block;
+    width: 250px;
+    font-size: 16px;
+    text-align: center;
+  }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    height: auto;
+    }
+  }
+  h1{
+    text-align: center;
+    font-size: 30px;
+    line-height: normal;
+  }
+  h3{
+    text-align: center;
+    font-size: 24px;
+  }
+  p{
+    margin-right: 25px;
+  }
+  #intro{
+    margin-right: 0px;
+  }
+}
