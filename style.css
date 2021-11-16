@@ -95,7 +95,7 @@ a:active {
 @media only screen and (max-width: 600px) {
   #bar{
     display: inline-block;
-    width: 300px;
+    width: 250px;
     height: 2px;
     align-self: center;
   }
